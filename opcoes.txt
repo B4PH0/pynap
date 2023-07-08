@@ -1,0 +1,11 @@
+-sS Realiza uma varredura TCP SYN (padrão)
+-sU Realiza uma varredura UDP
+-p <portas> Especifica as portas a serem verificadas
+-A Ativa a detecção de sistema operacional, versão do serviço e scripts de verificação
+-v Ativa o modo de saída verboso para exibir mais detalhes
+-o <arquivo> Especifica o arquivo de saída para gravar os resultados
+-T <timing> Define o nível de intensidade da varredura (0-5)
+-n Não faz resolução de DNS para os alvos
+-Pn Ignora o host discovery e varre mesmo se os hosts estiverem offline
+
+ip: 37.59.174.225 (http://businesscorp.com.br)
